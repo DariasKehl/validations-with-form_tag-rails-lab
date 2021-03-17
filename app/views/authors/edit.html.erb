@@ -1,0 +1,17 @@
+<h2>Author Edit form</h2>
+
+<%= form_for @author do |a| %>
+  <%= a.label 'Author Name' %> <br>
+  <%= a.text_field :name %> <br>
+  
+  <%= a.label 'Email' %> <br>
+  <%= a.text_field :email %> <br>
+  
+  <%= a.label 'Phone Number' %> <br>
+  <%= a.text_field :phone_number %> <br>
+  
+  
+  
+  
+  <%= a.submit "Update" %>
+<% end %>
